@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  paddings: 20px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.timer {
+  font-size: 72px;
+  color: #2c3e50;
+}
+
+button {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#start {
+  background-color: #27ae60;
+}
+#start[disabled] {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+#stop {
+  background-color: #c0392b;
+}
+#stop[disabled] {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+#reset {
+  background-color: #2980b9;
+}
+#reset[disabled] {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
